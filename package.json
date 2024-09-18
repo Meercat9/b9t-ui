@@ -1,6 +1,6 @@
 {
 	"name": "b9t-ui",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"homepage": "https://github.com/Meercat9/b9t-ui#readme",
 	"description": "A flexible UI library with TypeScript, React, and Tailwind",
 	"keywords": [],

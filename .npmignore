@@ -7,6 +7,9 @@ dockerfile
 tsconfig.json
 tailwind.config.js
 postcss.config.js
+.prettierrc
+.prettierignore
+.devcontainer/
 
 # Cache and logs
 .cache/
