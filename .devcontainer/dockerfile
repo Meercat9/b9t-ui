@@ -1,0 +1,22 @@
+FROM node:lts
+
+# Install apt dependencies
+RUN apt-get update && \
+	apt-get install -y git
+
+WORKDIR /workspace
+
+# Copy package.json and package-lock.json
+# COPY package*.json ./
+
+# Install dependencies
+# RUN npm install
+
+# # Copy the rest of the code
+# COPY . .
+
+# Expose port 1234 for the dev server
+EXPOSE 1234
+
+# Command to start
+CMD zsh
