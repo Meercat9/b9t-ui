@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+.cache/
+
+# Parcel cache and logs
+.parcel-cache/
+*.log
+
+# Demo dependencies and cache
+demo/node_modules/
+demo/.parcel-cache/

@@ -1,0 +1,14 @@
+# Demo and source code
+demo/
+src/
+
+# Configuration files
+dockerfile
+tsconfig.json
+tailwind.config.js
+postcss.config.js
+
+# Cache and logs
+.cache/
+.parcel-cache/
+*.log
