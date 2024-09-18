@@ -18,9 +18,60 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+
+				// TypeScript / NPM
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode",
-				"ms-vscode.vscode-typescript-tslint-plugin"
+				"christian-kohler.npm-intellisense",
+				"ms-vscode.vscode-typescript-tslint-plugin",
+
+				// Tailwind
+				"bradlc.vscode-tailwindcss",
+
+				// Utilities
+				"naumovs.color-highlight",
+				"corbi.uniquelines",
+				"mutantdino.resourcemonitor",
+				"usernamehw.errorlens",
+				"rid9.datetime",
+
+				// Markdown
+				"valentjn.vscode-ltex",
+				"yzhang.markdown-all-in-one",
+				"bierner.github-markdown-preview",
+				"DavidAnson.vscode-markdownlint",
+
+				// AI utilities
+				"GitHub.copilot",
+				"GitHub.copilot-labs",
+				"GitHub.heygithub",
+
+				// Git
+				"mhutchie.git-graph",
+				"donjayamanne.githistory",
+				"waderyan.gitblame",
+				"codezombiech.gitignore",
+
+				// Collaboration
+				"lostintangent.vsls-whiteboard",
+				"ms-vsliveshare.vsliveshare-pack",
+				"ms-vsliveshare.vsliveshare",
+
+				// Syntax support
+				"redhat.vscode-commons",
+				"redhat.vscode-xml",
+				"redhat.vscode-yaml",
+				"jakebathman.mysql-syntax",
+
+				// Region util
+				"maptz.regionfolder",
+				"mihelcic.colored-regions",
+
+				// Remoting and Docker
+				"ms-vscode-remote.remote-containers",
+				"ms-vscode-remote.remote-wsl",
+				"ms-azuretools.vscode-docker",
+				"firefox-devtools.vscode-firefox-debug"
 			],
 			"settings": {
 				"terminal.integrated.shell.linux": "/bin/bash"
